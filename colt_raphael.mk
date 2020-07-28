@@ -18,9 +18,6 @@ $(call inherit-product, device/xiaomi/raphael/msmnile.mk)
 # Inherit some common Colt stuff.
 $(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
-# Inherit from ANXCamera vendor.
-$(call inherit-product, vendor/ANXCamera/config.mk)
-
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
