@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_raphael.mk
+    $(LOCAL_DIR)/colt_raphael.mk
+
+COMMON_LUNCH_CHOICES := \
+    colt_raphael-user \
+    colt_raphael-userdebug \
+    colt_raphael-eng
